@@ -24,8 +24,6 @@ expected_counts = {
 expected_job_uses = {
   ["kin-dependency-wave.yml", "dependency-wave"] =>
     "firelock-ai/kin-actions/.github/workflows/cargo-dependency-wave.yml@v0.1.32",
-  ["merge-queue-ejection-notice.yml", "notice"] =>
-    "firelock-ai/kin-actions/.github/workflows/merge-queue-ejection-notice.yml@v0.1.31",
   ["registry-publish.yml", "release"] =>
     "firelock-ai/kin-actions/.github/workflows/cargo-registry-release.yml@v0.1.32",
 }.freeze
